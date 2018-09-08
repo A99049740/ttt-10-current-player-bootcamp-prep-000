@@ -1,7 +1,7 @@
 def turn_count(board)
   count =0
   for element in board
-    if element != '' || element != " "
+    if element != '' && element != " "
       count += 1
     end
   end
