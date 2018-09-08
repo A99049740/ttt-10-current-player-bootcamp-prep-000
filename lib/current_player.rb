@@ -1,5 +1,6 @@
 def turn_count(board)
-  for 
+  for element in board
+  
 end
 
 def current_player()
